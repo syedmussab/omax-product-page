@@ -1849,6 +1849,7 @@ hr {
   }
   
 .mobile-wrapper {
+    display: flex !important;
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -1857,52 +1858,16 @@ hr {
   }
   
   .mobile-sticky-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    position: sticky;
-    top: 80px;
-    z-index: 100;
-    background: linear-gradient(135deg, rgba(103, 0, 230, 0.15), rgba(252, 222, 131, 0.25));
-    padding: 20px 10px;
-  }
-  
-  .mobile-sticky-wrapper img {
-    max-width: 120px;
-    width: 100%;
-  }
-  
-  .hero-content {
-    position: sticky;
-    top: 80px;
-    z-index: 10;
-    background: rgba(255,255,255,0.95);
-    padding: 15px;
+    display: none;
   }
   
   .mobile-wrapper img {
     max-width: 150px;
     width: 100%;
-    position: relative;
   }
   
   .mobile-sticky-wrapper {
     display: none;
-  }
-  
-  .hero-content {
-    position: sticky;
-    top: 80px;
-    z-index: 10;
-    background: rgba(255,255,255,0.95);
-    padding: 15px;
-  }
-  
-  .mobile-wrapper img {
-    max-width: 150px;
-    width: 100%;
-    position: relative;
   }
   
   .hero-paragraph {
